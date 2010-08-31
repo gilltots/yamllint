@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Yamllint</title>
+  <title>YAMLlint - The YAML Validator</title>
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js" %>
   <%= javascript_include_tag 'rails' %>
   <%= javascript_include_tag 'jquery-linedtextarea' %>
   <%= csrf_meta_tag %>
 </head>
-<body>
-
-<%= yield %>
+<body style="font-family:Helvetica">
+  <div id="wrapper" style="width:920px;margin:auto;">
+    <div id="main_content" style="float:left;width:780px;">
+      <%= yield %>
+    </div>
+    <div id="adsense" style="height:600px;width:120px;float:left;margin:10px;">
+    <script type="text/javascript"><!--
+    google_ad_client = "pub-1317734135448640";
+    /* 120x600, created 8/30/10 */
+    google_ad_slot = "9023269698";
+    google_ad_width = 120;
+    google_ad_height = 600;
+    //-->
+    </script>
+    <script type="text/javascript"
+    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+    </script>
+    </div>
+    <div style="clear:both;"></div>
+  </div>
 
 </body>
 </html>

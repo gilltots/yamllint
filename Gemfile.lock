@@ -63,9 +63,11 @@ GEM
     treetop (1.4.8)
       polyglot (>= 0.3.1)
     tzinfo (0.3.23)
+    ya2yaml (0.30)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   rails (= 3.0.0)
+  ya2yaml
