@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Yamllint::Application.config.secret_token = '610c6187b872fecb48a7bd8183c90f1a5f3aa84371b8304826ed2fa2e4588321e735023c19498d3e75dbcc7a97fcca06338ee4c5b25286a5180a58e8c0751ff4'
+Yamllint::Application.config.secret_token = '23a45d6bda3d6bfefd6a583c499446f70907645ce15c791d9a21299d13f81a00749183e6986c050608b657f80e6dc4312872c2adfc0516125a8f795a8b1ace12'

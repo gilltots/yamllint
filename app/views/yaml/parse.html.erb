@@ -1,0 +1,28 @@
+<h1>YAML Lint!</h1>
+
+<%= form_tag '/' do %>
+<%= text_area_tag :yaml, @yaml, :size => "100x30", :escape => false, :class => 'lined' %>
+<%= submit_tag 'Go' %>
+<% end %>
+<% if defined?(@error) %>
+  <div style="background-color:red">
+  <%= @error %>
+</div>
+<% elsif @yaml.present? && @yaml.length > 1 %>
+<div style="background-color:green">
+  Valid YAML!
+</div>
+<% end %>
+
+
+<script>
+$(function() {
+  // Target all classed with ".lined"
+  $(".lined").linedtextarea(
+    <%= "{selectedLine: #{@error_line}}" if defined?(@error_line) %>
+  );
+
+
+
+});
+</script>
