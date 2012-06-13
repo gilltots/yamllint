@@ -1,0 +1,11 @@
+== Welcome to yamllint
+
+yamllint is a super basic rails app that wraps the ya2yaml gem to provide yaml syntax checking and prettification.  
+
+There are probably a million better ways to do this but it seems to work, check out http://yamllint.com for an example.
+
+== License
+
+yamllint is released under the MIT license:
+
+* http://www.opensource.org/licenses/MIT
