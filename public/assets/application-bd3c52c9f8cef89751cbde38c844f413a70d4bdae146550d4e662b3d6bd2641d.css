@@ -1,0 +1,92 @@
+/**
+ * jQuery Lined Textarea Plugin
+ *   http://alan.blog-city.com/jquerylinedtextarea.htm
+ *
+ * Copyright (c) 2010 Alan Williamson
+ *
+ * Released under the MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * Usage:
+ *   Displays a line number count column to the left of the textarea
+ *   
+ *   Class up your textarea with a given class, or target it directly
+ *   with JQuery Selectors
+ *   
+ *   $(".lined").linedtextarea({
+ *   	selectedLine: 10,
+ *    selectedClass: 'lineselect'
+ *   });
+ *
+ */
+/* line 27, /home/gilltots/work/heroku_yamllint/app/assets/stylesheets/yaml.scss */
+.linedwrap {
+  background-color: #EEEEEE;
+  border: 1px solid #c0c0c0;
+  padding: 3px;
+}
+
+/* line 33, /home/gilltots/work/heroku_yamllint/app/assets/stylesheets/yaml.scss */
+.linedtextarea {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 38, /home/gilltots/work/heroku_yamllint/app/assets/stylesheets/yaml.scss */
+.linedtextarea textarea, .linedwrap .codelines .lineno {
+  font-size: 10pt;
+  font-family: monospace;
+  line-height: normal !important;
+}
+
+/* line 44, /home/gilltots/work/heroku_yamllint/app/assets/stylesheets/yaml.scss */
+.linedtextarea textarea {
+  padding-right: 0.3em;
+  padding-top: 0.3em;
+  border: 0;
+}
+
+/* line 50, /home/gilltots/work/heroku_yamllint/app/assets/stylesheets/yaml.scss */
+.linedwrap .lines {
+  margin-top: 0px;
+  width: 50px;
+  float: left;
+  overflow: hidden;
+  border-right: 1px solid #c0c0c0;
+  margin-right: 10px;
+}
+
+/* line 59, /home/gilltots/work/heroku_yamllint/app/assets/stylesheets/yaml.scss */
+.linedwrap .codelines {
+  padding-top: 5px;
+}
+
+/* line 63, /home/gilltots/work/heroku_yamllint/app/assets/stylesheets/yaml.scss */
+.linedwrap .codelines .lineno {
+  color: #AAAAAA;
+  padding-right: 0.5em;
+  padding-top: 0.0em;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* line 71, /home/gilltots/work/heroku_yamllint/app/assets/stylesheets/yaml.scss */
+.linedwrap .codelines .lineselect {
+  color: red;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

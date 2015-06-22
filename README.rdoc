@@ -1,11 +1,28 @@
-== Welcome to yamllint
+== README
 
-yamllint is a super basic rails app that wraps the ya2yaml gem to provide yaml syntax checking and prettification.  
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-There are probably a million better ways to do this but it seems to work, check out http://yamllint.com for an example.
+Things you may want to cover:
 
-== License
+* Ruby version
 
-yamllint is released under the MIT license:
+* System dependencies
 
-* http://www.opensource.org/licenses/MIT
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
